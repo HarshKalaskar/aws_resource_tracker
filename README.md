@@ -23,10 +23,10 @@ aws s3 ls resourceTracker
 echo "Print list of EC2 instances"
 aws ec2 describe-instances resourceTracker
 
-#list lambda
+# list lambda
 echo "Print list of lambda"
 aws lambda list-functions resourceTracker
 
-#list IAM users
+# list IAM users
 echo "Print list of IAM users"
 aws iam list-users resourceTracker
